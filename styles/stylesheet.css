@@ -1,0 +1,56 @@
+.left-container{
+    width: 60%;
+    float: left;
+    height: 100vh;
+}
+
+.right-container{
+    width: 40%;
+    float: right;
+    height: 100vh;
+}
+
+.button-style{
+    margin-left: 13%;
+    margin-top: 10%;
+    width: 12vw
+}
+.value-row{
+    padding-top: 13vh;
+}
+
+.split-line{
+    border-bottom: 1px solid;
+    opacity: 0.2
+}
+
+.convert-value{
+    float: right;
+    opacity: 0.4;
+}
+
+#input-value{
+    width: 60%
+}
+
+#submit-btn{
+    float: right;
+}
+
+.clicked-button{
+    background-color: #2196F3;
+}
+
+#box,#box-contain{
+    height: 50%
+}
+
+#submit-error{
+    width: 100%;
+    display: none;
+}
+
+#nav-margin{
+    margin-left: 1em;
+    margin-right: 1em
+}

@@ -1,0 +1,23 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "A simple converter",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "homepage": "https://github.com/Sharu95/converter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharu95/converter.git"
+  },
+  "author": "Sharu Kulam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharu95/converter/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
