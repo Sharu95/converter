@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+        <link rel="stylesheet" href="styles/stylesheet.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    </head>
+    <body style="overflow:hidden">
+        <nav class="blue">
+            <div class="nav">
+              <ul class="right hide-on-med-and-down" id="nav-margin">
+                <li><a href="index.html">About</a></li>
+              </ul>
+              <div class="left flow-text" id="nav-margin">
+                  <a href="index.html">Converter</a>
+              </div>
+            </div>
+        </nav>
+
+        <!-- <div class="wrapper"> -->
+            <div class="left-container">
+                <div class="container">
+                    <section class="flow-text value-row">
+                        Hex Value
+                        <section id="hex-convert" class="convert-value">------</section>
+                        <div class="split-line"></div>
+                    </section>
+
+                    <section class="flow-text value-row">
+                        Decimal value
+                        <section id="dec-convert" class="convert-value">------</section>
+                        <div class="split-line"></div>
+                    </section>
+
+                    <section class="flow-text value-row">
+                        Binary value
+                        <section id="bin-convert" class="convert-value">------</section>
+                        <div class="split-line"></div>
+                    </section>
+
+                    <section class="flow-text value-row">
+                        Octal value
+                        <section id="oct-convert" class="convert-value">------</section>
+                        <div class="split-line"></div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="right-container">
+                <div id="box">
+                    <div>
+                        <button type="button" name="decimal" class="button-style btn deep-orange">
+                            Decimal
+                        </button>
+                        <button type="button" name="hex" class="button-style btn deep-orange">
+                            Hex
+                        </button>
+                    </div>
+                    <div>
+                        <button type="button" name="octal" class="button-style btn deep-orange">
+                            Octal
+                        </button>
+                        <button type="button" name="binary" class="button-style btn deep-orange">
+                            Binary
+                        </button>
+                    </div>
+                </div>
+                <div id="box-contain">
+                    <div class="container">
+                        <div id="input-container">
+                            <form id="submit-form" name="value-submit">
+                                 <input name="input" id="input-value" type="text" class="flow-text">
+                                 <button type="button" id="submit-btn" class="waves-effect waves-light btn deep-orange">Convert</button>
+                            </form>
+                        </div>
+                        <div id="submit-error">
+                            <div class="card-panel red">
+                              <span class="white-text">Please choose what type of number and specify a value for converting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="js/convert.js"></script>
+
+    </body>
+</html>
